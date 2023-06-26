@@ -18,7 +18,7 @@ Laravel: [Click here](https://laravel.com/)
 1. `git clone https://github.com/Sxagon/InertiaExample.git` for clone this project
 2. `cp .env.example .env` for create .env file
 3. `php artisan key:generate` for generate key
-4. `composer install` for install ventor files
+4. `composer install` for install vendor files
 5. `npm install` for install node modules
 
 ## Run commands
