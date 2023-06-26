@@ -1,0 +1,15 @@
+{
+  "\u0000plugin-vue:export-helper": [
+    "/build/assets/Home-925e715a.js"
+  ],
+  "resources/scripts/resolve.ts": [
+  ],
+  "resources/scripts/ssr.ts": [
+  ],
+  "resources/views/pages/Home.vue": [
+    "/build/assets/Home-925e715a.js"
+  ],
+  "resources/views/pages/Home.vue?vue&type=script&lang.ts": [
+    "/build/assets/Home-925e715a.js"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "typeRoots": [
+            "./",
+            "node_modules/@types"
+        ],
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "types": [
+            "vite/client",
+            "./resources/scripts/ziggy"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "resources/*"
+            ],
+            "@C/*": [
+                "resources/views/components/*"
+            ],
+            "@A/*": [
+                "resources/assets/*"
+            ],
+            "@I/*": [
+                "resources/assets/img/*"
+            ],
+            "@F/*": [
+                "resources/assets/fonts/*"
+            ]
+        }
+    },
+    "include": [
+        "resources/**/*",
+        "**/*.webp"
+    ]
+}
