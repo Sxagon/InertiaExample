@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
-
+    "api_url" => env("API_URL", "http://localhost:8000"),
     /*
     |--------------------------------------------------------------------------
     | Application Name
