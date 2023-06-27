@@ -15,7 +15,7 @@ Inertia: [Click here](https://inertiajs.com/)<br/>
 Laravel: [Click here](https://laravel.com/)
 
 ## Installation commands
-1. `git clone https://github.com/Sxagon/InertiaExample.git` for clone this project
+1. `git clone https://github.com/Sxagon/InertiaExampleVue.git` for clone this project
 2. `cp .env.example .env` for create .env file
 3. `php artisan key:generate` for generate key
 4. `composer install` for install vendor files
