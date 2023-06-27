@@ -1,4 +1,4 @@
-# INERTIA EXAMPLE
+# INERTIA EXAMPLE WITH VUE
 
 ##  About
 This example project uses:
