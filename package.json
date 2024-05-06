@@ -4,7 +4,6 @@
     "scripts": {
         "dev": "vite",
         "build:client": "vite build",
-        "production:all": "yarn build:client && yarn build:server && yarn optimize && php artisan optimize",
         "build:server": "vite build --ssr --outDir ./ssr",
         "ssr": "pm2 start ssr/ssr.js",
         "ssroff": "pm2 stop ssr",
@@ -17,6 +16,7 @@
         "@vue/tsconfig": "^0.4.0",
         "axios": "^1.1.2",
         "laravel-vite-plugin": "^0.7.5",
+        "tailwindcss": "^3.4.0",
         "sass": "^1.63.6",
         "sass-loader": "^13.3.2",
         "typescript": "^5.1.3",

@@ -7,6 +7,8 @@
         "jsx": "preserve",
         "sourceMap": true,
         "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
         "esModuleInterop": true,
         "typeRoots": [
             "./",
@@ -17,7 +19,6 @@
             "dom"
         ],
         "types": [
-            "vite/client",
             "./resources/scripts/ziggy"
         ],
         "baseUrl": ".",
@@ -36,11 +37,16 @@
             ],
             "@F/*": [
                 "resources/assets/fonts/*"
+            ],
+            "@components/*": [
+                "resources/views/components/*"
+            ],
+            "@libs/*": [
+                "resources/scripts/libs/*"
             ]
         }
     },
     "include": [
-        "resources/**/*",
-        "**/*.webp"
+        "resources/**/*"
     ]
 }

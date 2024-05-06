@@ -1,4 +1,4 @@
-import {defineConfig} from "vite"
+import { defineConfig } from "vite"
 import laravel from "vite-plugin-laravel"
 import vue from "@vitejs/plugin-vue"
 import inertia from "./resources/scripts/vite/inertia-layout"
@@ -27,6 +27,11 @@ export default defineConfig({
     resolve: {
         alias: {
             ziggy: "vendor/tightenco/ziggy/dist",
+            "@components": "resources/views/components",
+            "@libs": "resources/scripts/libs",
+            "@assets": "resources/assets",
+            "@fonts": "resources/assets/fonts",
+            "@images": "resources/assets/images",
         },
     },
 })
