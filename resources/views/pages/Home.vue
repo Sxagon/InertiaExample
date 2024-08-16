@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <h1>Hello world :)</h1>
+    <h1 class="bg-red-500">Hello world :)</h1>
     <YourComponent title="Hello from Home.vue" />
 </template>
 
